@@ -23,8 +23,8 @@ export default function Home() {
 
             <p className="mt-6 mb-4">
               ↳
-              <a className="linktext" href="http://www.instagram.com/fedeholc/">
-                <span> instagram.com/fedeholc</span>
+              <a className="linktext" href="http://fotos.fedeholc.ar">
+                <span> fotos.fedeholc.ar</span>
               </a>
             </p>
           </div>
@@ -41,14 +41,14 @@ export default function Home() {
 
             <p className="mt-6 mb-4">
               ↳
-              <a className="linktext" href="http://www.instagram.com/fedeholc/">
+              <a className="linktext" href="http://dev.fedeholc.ar/">
                 <span> dev.fedeholc.ar</span>
               </a>
             </p>
           </div>
         </div>
       </section>
-      <footer >Federico Holc ⚡️ 2023</footer>
+      <footer>Federico Holc ⚡️ 2023</footer>
     </main>
   );
 }
