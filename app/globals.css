@@ -83,7 +83,7 @@ a.linktext {
 
 p {
   font-size: 1.2rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--roboto-mono), "Courier New", Courier, monospace;
   font-weight: 600;
   color: black;
 }
@@ -113,4 +113,17 @@ a.linktext:hover {
 
 .subrayado {
   border-bottom: 2px solid hsl(298, 84%, 34%);
+}
+
+footer {
+  font-family: var(--roboto-mono), "Courier New", Courier, monospace;
+  font-size: 0.7rem;
+  padding: 0.2rem;
+  margin: 1rem;
+  margin-top: 4rem;
+  border: 1px dashed rgb(219, 0, 172);
+  display: grid;
+  justify-content: center;
+  place-self: center;
+  width: 300px;
 }

@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="min-h-screen flex flex-col justify-around">
-      <div className="flex  items-center flex-col text-center  p-24 gap-5">
+      <section className="flex  items-center flex-col text-center p-4 gap-5">
         <header>
           <h1>hola =)</h1>
           <h2>¿A cuál estás buscando?</h2>
@@ -47,7 +47,8 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
+      </section>
+      <footer >Federico Holc ⚡️ 2023</footer>
     </main>
   );
 }

@@ -1,11 +1,17 @@
 import "./globals.css";
-import { Archivo_Black } from "next/font/google";
+import { Archivo_Black, Roboto_Mono } from "next/font/google";
 
 export const archivoBlack = Archivo_Black({
   weight: ["400"],
   subsets: ["latin"],
   display: "swap",
   variable: "--font-archivo-black",
+});
+export const robotoMono = Roboto_Mono({
+  weight: ["400"],
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-roboto-mono",
 });
 
 export const metadata = {
