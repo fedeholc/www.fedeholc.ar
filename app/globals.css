@@ -106,6 +106,7 @@ a.linktext:hover {
 
 .borde_amarillo {
   padding: 0.5rem 0.7rem;
+
   border: 2px dashed hsl(45, 100%, 53%);
   border-radius: 10px;
 }
