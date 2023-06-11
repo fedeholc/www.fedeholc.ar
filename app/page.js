@@ -37,7 +37,7 @@ export default function Home() {
             />
 
             <h3 className="subrayado">Federico Holc </h3>
-            <h3 className="subrayado">fotógrafo</h3>
+            <h3 className="subrayado">programador</h3>
 
             <p className="mt-6 mb-4">
               ↳
