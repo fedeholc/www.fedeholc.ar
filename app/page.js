@@ -7,12 +7,13 @@ export default function Home() {
       <section className="flex  items-center flex-col text-center p-4 gap-5">
         <header>
           <h1>hola =)</h1>
-          <h2>¿A cuál estás buscando?</h2>
+          <h2>¿A quién estás buscando?</h2>
         </header>
 
-        <div className="flex flex-row  flex-wrap justify-center gap-10 max-w-800px mt-10">
+        <div className="flex flex-row  flex-wrap justify-center gap-10 max-w-800px mt-10 items-center">
           <div className="borde_amarillo w-72  border flex flex-col items-center">
             <Image
+              alt="Foto de federico holc con cara de programador"
               className="fotosperfil rounded-full border-2 border-black mt-4 mb-1"
               src="/ff3.jpg"
               width="150"
@@ -28,8 +29,10 @@ export default function Home() {
               </a>
             </p>
           </div>
+
           <div className="borde_amarillo  w-72 border flex flex-col items-center">
             <Image
+              alt="Foto de federico holc con cara de programador"
               className="fotosperfil rounded-full border-2 border-black mt-4 mb-1"
               src="/fp.jpg"
               width="150"
