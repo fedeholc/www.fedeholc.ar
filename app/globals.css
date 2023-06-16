@@ -62,7 +62,7 @@ h3 {
 a.linktext:visited,
 a.linktext {
   font-size: 1.2rem;
-  font-family: "Courier New", Courier, monospace;
+  font-family: var(--font-recursive);
   font-weight: 600;
   /*  font-family: var(--font-archivo-black); */
   --bg-size: 400%;
@@ -127,4 +127,3 @@ footer {
   place-self: center;
   width: 300px;
 }
-
