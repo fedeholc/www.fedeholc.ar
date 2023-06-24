@@ -44,8 +44,8 @@ export default function Home() {
 
             <p className="mt-6 mb-4">
               ↳
-              <a className="linktext" href="http://dev.fedeholc.ar/">
-                <span> dev.fedeholc.ar</span>
+              <a className="linktext" href="http://portfolio.fedeholc.ar/">
+                <span> portfolio.fedeholc.ar</span>
               </a>
             </p>
           </div>
